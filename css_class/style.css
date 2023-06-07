@@ -1,0 +1,256 @@
+/* css selectors */
+
+/* * {
+  padding: 0px;
+  margin: 0px;
+} */
+
+/* h1 {
+  color: red;
+} */
+
+/* .heading {
+  background-color: red;
+} */
+
+/* #heading {
+  background-color: blue;
+} */
+
+/* h1,
+p,
+.heading,
+#heading {
+  background-color: red;
+}
+
+p:hover {
+  background-color: blue;
+}
+
+h1:first-of-type {
+  background-color: green;
+} */
+
+/* p::first-letter {
+  color: white;
+  font-size: 50px;
+} */
+
+/* p::first-line {
+  color: white;
+} */
+
+/* more css properties and values */
+
+/* body {
+  background-color: gray;
+} */
+
+h1 {
+  color: red;
+  background-color: blue;
+  /* font-size: 100px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 900; */
+
+  font: 900 italic 100px sans-serif;
+}
+
+p {
+  line-height: 2rem;
+}
+
+/* css colors */
+
+/* div {
+  width: 300px;
+  height: 300px; */
+/* color names */
+/* background-color: red; */
+
+/* html5 colors */
+/* background-color: coral; */
+
+/* hex color values */
+/* background-color: #rrggbb; */
+/* background-color: #0000ff; */
+
+/* rgb color values */
+/* background-color: rgb(r,g,b); */
+/* background-color: rgb(0, 0, 255); */
+
+/* rgba color values */
+/* background-color: rgba(0, 0, 255, 0.9); */
+/* } */
+
+/* div:hover { */
+/* rgba color values */
+/* background-color: rgba(0, 0, 255, 0.5); */
+/* } */
+
+div {
+  width: 300px;
+  height: 300px;
+
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: red; */
+
+  text-align: justify;
+
+  border: 1px solid red;
+  padding: 50px 30px 80px 100px;
+  margin: 50px 30px 80px 100px;
+}
+
+section {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px 3px;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:visited {
+  color: green;
+}
+
+/* ul li:nth-child(even) {
+  background-color: red;
+}
+ul li:nth-child(odd) {
+  background-color: blue;
+} */
+
+/* ul li:nth-child(4) {
+  background-color: green;
+} */
+
+table {
+  width: 100%;
+}
+
+tr,
+th,
+td {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 97%;
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 20px;
+}
+
+form input[type="submit"] {
+  width: 200px;
+  cursor: pointer;
+  padding: 10px;
+  margin: auto;
+}
+
+/* article {
+  float: left;
+  width: 33.3%;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: justify;
+  box-sizing: border-box;
+} */
+
+/* main {
+  display: flex;
+  text-align: justify;
+}
+
+main article {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+} */
+
+/* main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+main article {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+} */
+
+.main {
+  float: left;
+  width: 70%;
+}
+
+.aside {
+  float: right;
+  width: 30%;
+}
+
+.clr {
+  display: block;
+  clear: both;
+}
+
+/* .contact {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 20px;
+  padding: 10px 5px;
+} */
+
+.contact {
+  position: sticky;
+  top: 100px;
+}
+
+.box {
+  border: 3px solid red;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  background: url("social.PNG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box h3 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
